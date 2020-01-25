@@ -33,34 +33,6 @@ body {
 	color: #333;
 }
 
-.header__subtitle:after {
-	content: '';
-	width: 10px;
-	height: 2px;
-	background: #333;
-	opacity: 0;
-	display: inline-block;
-	-webkit-animation: blink 0.6s linear infinite alternate;
-	-o-animation: blink 0.6s linear infinite alternate;
-	animation: blink 0.6s linear infinite alternate;
-}
-@-webkit-keyframes blink {
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@-o-keyframes blink {
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@-moz-keyframes blink {
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@keyframes blink {
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-
 .about {
 	padding: 1rem 0;
 	font-size: 1.2rem;
