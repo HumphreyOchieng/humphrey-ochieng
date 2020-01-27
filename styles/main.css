@@ -41,14 +41,23 @@ body {
 	padding: 0 0 1rem;
 }
 
-.links {
+.contact {
 	display: flex;
 	padding: 1rem 0;
 }
 
 .link {
 	color: #00418c;
-	margin-right: 1rem;
+}
+
+.email::before {
+	content: "";
+	background: #00418c;
+	width: 15px;
+	height: 2px;
+	margin-bottom: 4px;
+	margin-right: 10px;
+	display: inline-block;
 }
 
 .link:hover {
