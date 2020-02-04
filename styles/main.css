@@ -5,8 +5,8 @@
 }
 
 html {
-	font-size: 17px;
-	font-family: Roboto;
+	font-size: 16px;
+	font-family: "Work Sans";
 }
 
 body {
@@ -50,19 +50,19 @@ body {
 	color: #00418c;
 }
 
-.email::before {
-	content: "";
-	background: #00418c;
-	width: 15px;
-	height: 2px;
-	margin-bottom: 4px;
-	margin-right: 10px;
-	display: inline-block;
-}
-
 .link:hover {
 	color: #000;
 }
+
+/* .email::before {
+	content: "";
+	background: #00418c;
+	width: 10px;
+	height: 2px;
+	margin-right: 5px;
+	margin-bottom: 4px;
+	display: inline-block;
+} */
 
 .work {
 	padding: 1rem 0;
